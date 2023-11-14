@@ -12,5 +12,23 @@ app.listen(port, () => {
 
 // GET: Obtener todos los pokemons
 app.get('/trainers', (req, res) => {
-    res.json(trainers);
+
+  const name = req.query.name || '';
+  const isChampion = req.query.isChampion || null;
+
+  const isLikeName = ((trainer) => {
+    return trainer.name.toLocaleLowerCase().includes(name.toLocaleLowerCase())
+  });
+
+  const hasWinnedTournaments = ((trainer) => {
+    return trainer.winnedTournaments.length;
+  });
+
+
+  let data = trainers.filter(isLikeName);
+  if (isChampion) {
+    data = data.filter(hasWinnedTournaments);
+  }
+
+  res.json(data);
 });
