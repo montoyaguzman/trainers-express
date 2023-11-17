@@ -8,7 +8,10 @@ const trainers = [
       display: 'https://w7.pngwing.com/pngs/225/443/png-transparent-ash-ketchum-pokemon-x-and-y-pikachu-pokemon-go-pokemon-universe-pikachu-fictional-character-cartoon-arm.png'
     },
     rank: 50,
-    region: 'Kanto',
+    region: {
+      name: 'Kanto',
+      description: 'lalalala'
+    },
     winnedTournaments: [
       'liga naranja',
       'alola'
@@ -46,7 +49,10 @@ const trainers = [
       display: 'https://i.pinimg.com/originals/b9/70/49/b97049038091ab8daed73e57d83e7224.jpg'
     },
     rank: 35,
-    region: 'Kanto',
+    region: {
+      name: 'Kanto',
+      description: 'lalalala'
+    },
     winnedTournaments: [],
     team: [
       {
@@ -76,7 +82,10 @@ const trainers = [
       display: 'https://i.pinimg.com/originals/c8/14/03/c81403e28f5a1245c5459ea04d864aae.png'
     },
     rank: 40,
-    region: 'Kalos',
+    region: {
+      name: 'Kalos',
+      description: 'lalalala'
+    },
     winnedTournaments: [
       'Kalos',
     ],
@@ -108,7 +117,10 @@ const trainers = [
       display: 'https://64.media.tumblr.com/683bb55ba9e17d836f460f6983996c95/f18c86c15d0cbfe2-67/s1280x1920/2671235828fd101e8c31b602d2ce408a3d7ac85e.jpg'
     },
     rank: 8,
-    region: 'Sinnoh',
+    region: {
+      name: 'Sinnoh',
+      description: 'lalalala'
+    },
     winnedTournaments: [
       'Sinnoh',
     ],
@@ -136,7 +148,10 @@ const trainers = [
       display: 'https://static.wikia.nocookie.net/victor-bjorgman/images/5/57/Iris_%28Viajes_Pok%C3%A9mon%29.png/revision/latest?cb=20220604194518&path-prefix=es'
     },
     rank: 7,
-    region: 'Unova',
+    region: {
+      name: 'Unova',
+      description: 'lalalala'
+    },
     winnedTournaments: [
       'Unova'
     ],
@@ -176,7 +191,10 @@ const trainers = [
       display: 'https://static.wikia.nocookie.net/doblaje/images/1/19/James_JN.png/revision/latest?cb=20221225160609&path-prefix=es'
     },
     rank: 7,
-    region: 'Kanto',
+    region: {
+      name: 'Kanto',
+      description: 'lalalala'
+    },
     winnedTournaments: [],
     team: [
       {
@@ -198,7 +216,10 @@ const trainers = [
       display: ''
     },
     rank: 17,
-    region: 'Johto',
+    region: {
+      name: 'Johto',
+      description: 'lalalala'
+    },
     winnedTournaments: [
       'Johto',
     ],
@@ -226,11 +247,14 @@ const trainers = [
     id: 8,
     name: 'Lionel',
     imgs: {
-      card: 'https://static.wikia.nocookie.net/espokemon/images/3/3d/EP1101_Lionel_%28anime%29.png/revision/latest?cb=20200423131652',
+      card: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fe1eb1f2-bf92-4a88-80b1-f4cbe7e64536/de2x4r2-50c84472-dc33-48f0-8b8e-90b6c8d6ec68.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZlMWViMWYyLWJmOTItNGE4OC04MGIxLWY0Y2JlN2U2NDUzNlwvZGUyeDRyMi01MGM4NDQ3Mi1kYzMzLTQ4ZjAtOGI4ZS05MGI2YzhkNmVjNjgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.UlpxmlewiDIbeh7Nkwgr-6ap9GNfKQRvD7DLiaYbQHw',
       display: 'https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d5/latest/20220527172932/Lionel_%28Viajes_Pok%C3%A9mon%29_2.png/250px-Lionel_%28Viajes_Pok%C3%A9mon%29_2.png'
     },
     rank: 49,
-    region: 'Galar',
+    region: {
+      name: 'Galar',
+      description: 'lalalala'
+    },
     winnedTournaments: [
       'Galar',
     ],
@@ -262,7 +286,10 @@ const trainers = [
       display: 'https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f73d6b30-6514-4a15-95c9-ce229f3c9b41/width=450/00392-3232671932.jpeg'
     },
     rank: 30,
-    region: 'Hoenn',
+    region: {
+      name: 'Sinnoh',
+      description: 'lalalala'
+    },
     winnedTournaments: [],
     team: [
       {
@@ -296,7 +323,10 @@ const trainers = [
       display: 'https://images.wikidexcdn.net/mwuploads/wikidex/9/9b/latest/20220527143929/Steven_%28Viajes_Pok%C3%A9mon%29.png'
     },
     rank: 45,
-    region: 'Hoenn',
+    region: {
+      name: 'Hoenn',
+      description: 'lalalala'
+    },
     winnedTournaments: [
       'Hoenn',
     ],
@@ -337,7 +367,10 @@ const trainers = [
       display: 'https://w7.pngwing.com/pngs/225/443/png-transparent-ash-ketchum-pokemon-x-and-y-pikachu-pokemon-go-pokemon-universe-pikachu-fictional-character-cartoon-arm.png'
     },
     rank: 50,
-    region: 'Kanto',
+    region: {
+      name: 'Kanto',
+      description: 'lalalala'
+    },
     winnedTournaments: [],
     team: [
       {
@@ -345,7 +378,14 @@ const trainers = [
         level: 50
       }
     ],
-    history: 'lalala'
+    history: 'lalala',
+    // address: {
+    //   street: '',
+    //   number: '',
+    //   contact: {
+    //     numbers: ['417181920', '5591695904']
+    //   }
+    // }
   },
 ];
 

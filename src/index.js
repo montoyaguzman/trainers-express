@@ -14,20 +14,27 @@ app.listen(port, () => {
 app.get('/trainers', (req, res) => {
 
   const name = req.query.name || '';
-  const isChampion = req.query.isChampion || null;
+
+
+
+  const isChampion = req.query.isChampion === 'true' ? true : false
 
   const isLikeName = ((trainer) => {
     return trainer.name.toLocaleLowerCase().includes(name.toLocaleLowerCase())
   });
 
   const hasWinnedTournaments = ((trainer) => {
-    return trainer.winnedTournaments.length;
+    return trainer.winnedTournaments.length > 0;
   });
 
 
   let data = trainers.filter(isLikeName);
+
+  console.log('llega: ', typeof isChampion, isChampion)
+  console.log(data.length)
   if (isChampion) {
     data = data.filter(hasWinnedTournaments);
+    console.log(data.length)
   }
 
   res.json(data);
